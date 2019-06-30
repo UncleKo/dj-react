@@ -1,0 +1,19 @@
+{
+  "python.pythonPath": "venv/bin/python",
+  "python.linting.pylintPath": "venv/bin/pylint",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins",
+    "pylint_django"
+  ],
+  // "editor.formatOnSave": true,
+  "python.linting.pep8Enabled": false,
+  // "python.venvPath": "${workspaceFolder}/backend/env/bin/python3",
+  "python.linting.pep8Args": [
+    "--ignore=E501"
+  ],
+  "files.exclude": {
+    "**/*.pyc": true
+  }
+}
